@@ -1,0 +1,41 @@
+
+.container{
+    text-align: center;
+}
+
+.icon {
+    font-size: 45px;
+}
+.icon1:hover{
+    color:red;
+}
+
+
+.icon2:hover{
+    color:red;
+}
+
+.icon3:hover{
+    color:red;
+}
+.icon3:hover > .icon1{
+    color:red;
+}
+
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+  }
+
+  .rating div:hover {
+    color: lightblue;
+  }
+  .rating div:hover ~ div {
+    color: lightblue;
+  }
