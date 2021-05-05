@@ -35,7 +35,9 @@
 
   .rating div:hover {
     color: lightblue;
+    transition: 0.3s;
   }
   .rating div:hover ~ div {
     color: lightblue;
+    transition: 0.3s;
   }
