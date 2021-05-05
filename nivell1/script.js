@@ -23,17 +23,26 @@ body.addEventListener("click", function () {
 }, false);
 divRating1.addEventListener("click", function (ev) {
     divRating1.style.color="lightblue";
+    divRating2.style.color = "black";
+    divRating3.style.color = "black";
+    divRating4.style.color = "black";
+    divRating5.style.color = "black";
     ev.stopPropagation(); //this is important! If removed, you'll get both alerts
 }, false);
 divRating2.addEventListener("click", function (ev) {
     divRating1.style.color="lightblue";
     divRating2.style.color="lightblue";
+    divRating3.style.color = "black";
+    divRating4.style.color = "black";
+    divRating5.style.color = "black";
     ev.stopPropagation(); //this is important! If removed, you'll get both alerts
 }, false);
 divRating3.addEventListener("click", function (ev) {
     divRating1.style.color="lightblue";
     divRating2.style.color="lightblue";
     divRating3.style.color="lightblue";
+    divRating4.style.color = "black";
+    divRating5.style.color = "black";
     ev.stopPropagation(); //this is important! If removed, you'll get both alerts
 }, false);
 divRating4.addEventListener("click", function (ev) {
@@ -41,6 +50,7 @@ divRating4.addEventListener("click", function (ev) {
     divRating2.style.color="lightblue";
     divRating3.style.color="lightblue";
     divRating4.style.color="lightblue";
+    divRating5.style.color = "black";
     ev.stopPropagation(); //this is important! If removed, you'll get both alerts
 }, false);
 divRating5.addEventListener("click", function (ev) {
